@@ -1,0 +1,11 @@
+pandas
+numpy
+openpyxl
+fuzzywuzzy
+python-Levenshtein
+Flask
+Flask-CORS
+streamlit
+pytest
+black
+flake8

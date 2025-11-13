@@ -1,0 +1,252 @@
+[data-testid="stAppViewContainer"] {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+/* Sidebar - White with Shadow */
+[data-testid="stSidebar"] {
+    background: white !important;
+    box-shadow: 2px 0px 12px rgba(0, 0, 0, 0.08) !important;
+}
+
+[data-testid="stSidebar"] > div {
+    background: white !important;
+}
+
+/* Sidebar Header & Content */
+[data-testid="stSidebar"] [data-testid="stMarkdownContainer"],
+[data-testid="stSidebar"] .stMarkdown,
+[data-testid="stSidebar"] .stText {
+    color: #2c3e50 !important;
+}
+
+/* Main Content Area */
+.main {
+    background: white;
+    border-radius: 12px;
+    margin: 2rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    padding: 2rem;
+}
+
+/* Typography Improvements */
+h1 {
+    color: #1a237e !important;
+    font-size: 2.5rem !important;
+    font-weight: 700 !important;
+    letter-spacing: -0.5px !important;
+    margin-bottom: 1rem !important;
+}
+
+h2 {
+    color: #283593 !important;
+    font-size: 1.8rem !important;
+    font-weight: 600 !important;
+    margin-top: 1.5rem !important;
+    margin-bottom: 1rem !important;
+    border-bottom: 3px solid #5e35b1 !important;
+    padding-bottom: 0.5rem !important;
+}
+
+h3 {
+    color: #3949ab !important;
+    font-size: 1.3rem !important;
+    font-weight: 600 !important;
+    margin-top: 1rem !important;
+    margin-bottom: 0.8rem !important;
+}
+
+h4 {
+    color: #512da8 !important;
+    font-size: 1.1rem !important;
+    font-weight: 600 !important;
+}
+
+/* Button Styling - Modern */
+button {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 8px !important;
+    padding: 0.75rem 1.5rem !important;
+    font-weight: 600 !important;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4) !important;
+    transition: all 0.3s ease !important;
+}
+
+button:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6) !important;
+}
+
+/* Input Fields - Modern */
+.stTextInput > div > div > input,
+.stSelectbox > div > div > select,
+.stNumberInput > div > div > input {
+    border: 2px solid #e0e0e0 !important;
+    border-radius: 8px !important;
+    padding: 0.75rem !important;
+    font-size: 1rem !important;
+    transition: border-color 0.3s ease !important;
+}
+
+.stTextInput > div > div > input:focus,
+.stSelectbox > div > div > select:focus,
+.stNumberInput > div > div > input:focus {
+    border-color: #667eea !important;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1) !important;
+}
+
+/* Metrics - Modern Cards */
+[data-testid="stMetricContainer"] {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+    border-radius: 12px !important;
+    padding: 1.5rem !important;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.2) !important;
+    color: white !important;
+}
+
+[data-testid="stMetricContainer"] > div {
+    color: white !important;
+}
+
+/* Alert Boxes - Modern */
+.stInfo {
+    background: #e3f2fd !important;
+    border-left: 4px solid #2196f3 !important;
+    border-radius: 8px !important;
+    padding: 1rem !important;
+}
+
+.stSuccess {
+    background: #e8f5e9 !important;
+    border-left: 4px solid #4caf50 !important;
+    border-radius: 8px !important;
+    padding: 1rem !important;
+}
+
+.stWarning {
+    background: #fff3e0 !important;
+    border-left: 4px solid #ff9800 !important;
+    border-radius: 8px !important;
+    padding: 1rem !important;
+}
+
+.stError {
+    background: #ffebee !important;
+    border-left: 4px solid #f44336 !important;
+    border-radius: 8px !important;
+    padding: 1rem !important;
+}
+
+/* Expander Styling */
+[data-testid="stExpander"] {
+    border: 2px solid #e0e0e0 !important;
+    border-radius: 8px !important;
+    overflow: hidden !important;
+}
+
+[data-testid="stExpander"] summary {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%) !important;
+    padding: 1rem !important;
+    font-weight: 600 !important;
+    color: #2c3e50 !important;
+    border-radius: 8px !important;
+}
+
+/* Tab Styling */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 0.5rem;
+    border-bottom: 3px solid #e0e0e0;
+}
+
+.stTabs [data-baseweb="tab"] {
+    background: #f5f7fa !important;
+    border-radius: 8px 8px 0 0 !important;
+    padding: 1rem 1.5rem !important;
+    font-weight: 600 !important;
+    color: #2c3e50 !important;
+}
+
+.stTabs [aria-selected="true"] {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+    color: white !important;
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3) !important;
+}
+
+/* Radio & Checkbox */
+[data-baseweb="radio"] {
+    background: white !important;
+    border-radius: 8px !important;
+    padding: 0.75rem 1rem !important;
+    border: 2px solid #e0e0e0 !important;
+    transition: all 0.3s ease !important;
+}
+
+[data-baseweb="radio"]:hover {
+    border-color: #667eea !important;
+    background: #f5f7fa !important;
+}
+
+/* Divider */
+hr {
+    border-color: #e0e0e0 !important;
+    margin: 2rem 0 !important;
+}
+
+/* Table Styling */
+[data-testid="stDataFrame"] {
+    border-radius: 8px !important;
+    overflow: hidden !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05) !important;
+}
+
+[data-testid="stDataFrame"] table {
+    border-collapse: collapse !important;
+}
+
+[data-testid="stDataFrame"] th {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+    color: white !important;
+    font-weight: 600 !important;
+    padding: 1rem !important;
+}
+
+[data-testid="stDataFrame"] td {
+    padding: 0.75rem 1rem !important;
+    border-bottom: 1px solid #e0e0e0 !important;
+}
+
+/* Scrollbar - Modern */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #667eea;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #764ba2;
+}
+
+/* Mobile Responsive */
+@media (max-width: 640px) {
+    h1 {
+        font-size: 1.8rem !important;
+    }
+
+    h2 {
+        font-size: 1.3rem !important;
+    }
+
+    .main {
+        margin: 1rem !important;
+        padding: 1rem !important;
+    }
+}
